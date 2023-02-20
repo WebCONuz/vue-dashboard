@@ -16,8 +16,6 @@
 import Header from "./components/Header/Header.vue";
 import Sidebar from "./components/Sidebar/Sidebar.vue";
 import Footer from "./components/Footer/Footer.vue";
-import Home from "./views/Home/Home.vue";
-import Form from "./components/Form/Form.vue";
 import { RouterView } from "vue-router";
 
 export default {
@@ -26,8 +24,6 @@ export default {
     Header,
     Sidebar,
     Footer,
-    Home,
-    Form,
   },
 
   data() {
